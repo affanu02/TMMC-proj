@@ -1,4 +1,11 @@
-﻿using System.Drawing;
+﻿/*
+ * Author: Affan Khan
+ * Last Edited: 2024-08-19
+ * Description: Windows Console application counts the number of vertical black lines in a black and white image created using MS paint. 
+ * This program requires the image address within the arguments when running the run command.
+ */
+
+using System.Drawing;
 using System.Net;
 
 class Program
