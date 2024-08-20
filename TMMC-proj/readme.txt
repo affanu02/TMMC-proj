@@ -8,3 +8,5 @@ Prerequisites
 How to Run
 - cd into the right directory where the `Program.cs` file is
 - run the command: `dotnet run <file Address>`
+
+Github Link: https://github.com/affanu02/TMMC-proj
