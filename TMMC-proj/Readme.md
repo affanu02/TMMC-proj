@@ -3,8 +3,7 @@
 ## Description
 
 This Windows Console application counts the number of vertical black lines in a black and white image created using MS paint. 
-This program requires the image address argument when running the run command. If there isnt one argument provided, the program 
-will prompt you to input a string of the image address.
+This program requires the image address within the arguments when running the run command. 
 
 ## Prerequisites
 

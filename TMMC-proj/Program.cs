@@ -11,12 +11,11 @@ class Program
         //make sure there is only one argument provided
         if (args.Length != 1)
         {
-            Console.WriteLine("Error: Invalid number of arguments.");
-            imagePath = ImageAddressInput();
+            Console.WriteLine("Error: Invalid number of arguments. Please input the file address as an argument.");
+            return;
         }
         else
         {
-            // If exactly one argument is provided, use it as the image path.
             imagePath = args[0];
         }
 
@@ -38,17 +37,7 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine("An error occurred: " + ex.Message);
-            imagePath = ImageAddressInput();
         }
-    }
-
-    static string ImageAddressInput()
-    {
-        // Read the image path from the console input.
-        Console.WriteLine("Please Input the image path to process. ");
-        string imagePath = Console.ReadLine();
-
-        return imagePath;
     }
 
     static byte[] ImageToByteMatrix(Bitmap img)
