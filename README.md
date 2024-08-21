@@ -15,5 +15,5 @@ locally. Live version is up and running, See below.
 - Search up: https://tmmc-test-affan-khan.azurewebsites.net/api/Function1?imagePath=path-to-image-online
 - Note this is for online images addresses only
 - Here are some test links with images already inputted as parameters:
-		- https://tmmc-test-affan-khan.azurewebsites.net/api/Function1?imagePath=https://thumb.ac-illust.com/fa/fa7e031b305ce3134cd5b0ab03ef6202_t.jpeg
-		- https://tmmc-test-affan-khan.azurewebsites.net/api/Function1?imagePath=https://thumb.ac-illust.com/15/15c1a38477e96701c4aa5b88ea796917_t.jpeg
+  - https://tmmc-test-affan-khan.azurewebsites.net/api/Function1?imagePath=https://thumb.ac-illust.com/fa/fa7e031b305ce3134cd5b0ab03ef6202_t.jpeg
+  - https://tmmc-test-affan-khan.azurewebsites.net/api/Function1?imagePath=https://thumb.ac-illust.com/15/15c1a38477e96701c4aa5b88ea796917_t.jpeg
